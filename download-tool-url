@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>本人的常用工具下载地址</title>
+		<style type="text/css">
+		.nav a:link,.nav a:visited{
+		color:#fff;
+		text-decoration:none;
+		font-size:16px;
+		font-family:"微软雅黑";
+		}
+	    .nav a:hover,.nav a:active{
+		color:#ff0;
+		text-decoration:none;
+		font-size:16px;
+		font-family:"微软雅黑";
+	}
+		.nav{
+			float: left;
+		}
+		p{
+			color: #FFFF00;
+		}
+
+		</style>
+		<base href="" target="_blank">
+	</head>
+	<body bgcolor="#1D1F21">
+		<div class="nav">
+		
+		<ol>
+			<p>常用组件及框架下载地址:</p>
+			<li><a href="https://dev.opera.com/articles/opera-mobile-emulator/">桌面Opera Mobile模拟器</a></li>
+			<li><a href="http://jquery.com/download/">jquery官网</a></li>
+			<li><a href="http://jquerymobile.com/download/">jquerymobile官网</a></li>
+			<li><a href="http://jqueryui.com/download/">jqueryui官网</a></li>
+			<li><a href="http://www.jeasyui.com/download/index.php">jQuery EasyUI官网</a></li>
+			<li><a href="http://www.jeasyui.net/">jQuery EasyUI中文网官网</a></li>
+			<li><a href="https://nodejs.org/en/download/">Node.js官网下载</a></li>
+			<li><a href="http://getbootstrap.com/2.3.2/">Bootstrap官网下载</a></li>
+			<li><a href="http://www.bootcss.com/">Bootstrap中文网下载</a></li>
+			<li><a href="https://github.com/yahoo/pure">Pure雅虎 CSS框架5.7k下载</a></li>
+			<li><a href="https://github.com/aFarkas/html5shiv">兼容IE的html5shiv.js官网下载</a></li>
+			<li><a href="http://foundation.zurb.com/">Foundation移动优先流行框架官网下载</a></li>
+			<li><a href="https://www.angularjs.org/">angularjs官网下载</a></li>
+			<li><a href="http://www.apjs.net/">angularjs中文官网下载</a></li>
+			<li><a href="https://github.com/react-bootstrap/react-bootstrap">react官网下载</a></li>
+			<li><a href="http://reactjs.cn/react/docs/getting-started.html">react中文网下载</a></li>
+			<li><a href="http://www.tutorialspoint.com/w3css/w3css_overview.htm">w3.css内置响应设计官网下载</a></li>
+			<li><a href="http://www.highcharts.com/">Highcharts图表库官网下载</a></li>
+			<li><a href="https://github.com/douglascrockford/JSON-js">JSON-js官网下载</a></li>
+			<li><a href="https://github.com/less/less.js">less.js官网下载</a></li>
+			<li><a href="http://www.sass-zh.com/">sass中文网下载</a></li>
+			<li><a href="http://lesscss.cn/#download-options">less.js中文官网下载</a></li>
+			<li><a href="http://www.php.net/">php官网下载</a></li>
+			<li><a href="http://php.net/manual/zh/install.php">php官方手册</a></li>
+			<li><a href="http://dev.mysql.com/downloads/mysql/">mysql官网下载</a></li>
+			<li><a href="https://www.python.org/">python官网下载</a></li>
+			
+			</ol>
+			</div>
+			<div class="nav">
+				<ol>
+					<p>在线学习网:<p>
+					<li><a href="https://www.w3.org/">W3C英文官网</a></li>
+					<li><a href="http://www.chinaw3c.org/">W3C中国官网</a></li>
+					<li><a href="http://www.tutorialspoint.com/index.htm">tutorialspoint官网</a></li>
+					<li><a href="http://www.runoob.com/">菜鸟教程官网</a></li>
+					<li><a href="http://www.w3cschool.cn/">w3cschool官网</a></li>
+					<li><a href="http://www.w3school.com.cn/html/index.asp">w3school官网</a></li>
+					<li><a href="http://www.tuicool.com/articles/J3uyaa">前端优化：雅虎35条</a></li>
+					<li><a href="https://github.com/yui/yui3/blob/master/src/cssreset/css/cssreset.css">雅虎CSS Reset样式地址</a></li>
+					<li><a href="http://www.cnblogs.com/weihua88/p/5629114.html">CSS 公共样式摘自万能的度娘</a></li>
+					<li><a href="http://www.jianshu.com/p/f7c35cb40e8a?utm_campaign=haruki&utm_content=note&utm_medium=reader_share&utm_source=qq">最实用的IT类网站及工具大集合</a></li>
+				</ol>
+			</div>
+			
+			<div class="nav">
+				<ol>
+					<p>素材:<p>
+					<li><a href="http://www.iconfont.cn/">阿里巴巴矢量图标库</a></li>
+					<li><a href="http://www.sucaitianxia.com/psd/">psd素材网</a></li>
+				</ol>
+			</div>
+			<div class="nav">
+				<ol>
+					<p>编辑器:<p>
+					<li><a href="https://www.editplus.com/">EditPlus官网下载</a></li>
+					<li><a href="https://notepad-plus-plus.org/">Notepad++官网下载</a></li>
+					<li><a href="http://www.sublimetext.com/">sublime官网下载</a></li>
+					<li><a href="http://www.jetbrains.com/webstorm/">webstorm官网下载</a></li>
+					<li><a href="https://atom.io/">atom官网下载</a></li>
+					<li><a href="http://www.dcloud.io/">HBuilder官网下载</a></li>
+					<li><a href="http://www.eclipse.org/downloads/eclipse-packages/">Eclipse官网下载</a></li>
+					<li><a href="http://www.myeclipsecn.com/">myeclipsecn官网下载</a></li>
+					<li><a href="https://www.jetbrains.com/idea/download/#section=windows">idea官网下载</a></li>
+					<li><a href="https://www.jetbrains.com/products.html?fromMenu">jetbrains其他工具官网下载</a></li>
+					<li><a href="https://getfirebug.com/downloads/">firebug插件官网下载</a></li>
+					<li><a href="http://emmet.io/download/">Emmet插件官网下载</a></li>
+					<li><a href="http://www.w3cplus.com/tools/emmet-cheat-sheet.html">Emmet使用手册</a></li>
+					<li><a href="http://rj.baidu.com/soft/detail/24405.html?ald">adobe dreamweaver下载</a></li>
+					<li><a href="http://rj.baidu.com/search/index/?kw=Photoshop">adobe Photoshop下载</a></li>
+					<li><a href="http://rj.baidu.com/soft/detail/24491.html">Adobe Fireworks CS6下载</a></li>
+				</ol>
+			</div>
+			
+			<div class="nav">
+				<ol>
+					<p>浏览器:<p>
+					<li><a href="http://www.google.cn/intl/zh-CN/chrome/browser/">谷歌浏览器</a></li>
+					<li><a href="http://www.firefox.com.cn/">Firefox 火狐浏览器</a></li>
+					<li><a href="https://www.mozilla.org/zh-CN/firefox/channel/#developer">Firefox 火狐浏览器开发者专版</a></li>
+					<li><a href="http://www.opera.com/zh-cn">欧朋浏览器官网下载</a></li>
+					<li><a href="http://liulanmi.com/opera">欧朋浏览器开发者版本下载</a></li>
+					<li><a href="https://browser.yandex.com/desktop/main/">俄罗斯的优秀浏览器Yandex官网下载</a></li>
+					<li><a href="http://www.my-debugbar.com/wiki/IETester/HomePage/">IETester官网下载</a></li>
+					<li><a href="https://turbo.net/browsers">在线浏览器兼容性测试工具Spoon Browser Sandbox</a></li>
+					<li><a href="http://browsershots.org/">在线浏览器兼容性测试工具BrowserShots</a></li>
+					<li><a href="http://netrenderer.com/">在线浏览器兼容性测试工具IE NetRenderer</a></li>
+					<li><a href="http://www.myeclipsecn.com/">myeclipsecn官网下载</a></li>
+					<li><a href="https://www.jetbrains.com/idea/download/#section=windows">idea官网下载</a></li>
+					<li><a href="https://www.jetbrains.com/products.html?fromMenu">jetbrains其他工具官网下载</a></li>
+					<li><a href="http://emmet.io/download/">Emmet插件官网下载</a></li>
+					<li><a href="http://www.w3cplus.com/tools/emmet-cheat-sheet.html">Emmet使用手册</a></li>
+					<li><a href="http://rj.baidu.com/soft/detail/24405.html?ald">adobe dreamweaver下载</a></li>
+					<li><a href="http://rj.baidu.com/search/index/?kw=Photoshop">adobe Photoshop下载</a></li>
+					<li><a href="http://rj.baidu.com/soft/detail/24491.html">Adobe Fireworks CS6下载</a></li>
+				</ol>
+			</div>
+			
+			<div class="nav">
+				<ol>
+					<p>其他工具:<p>
+					<li><a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">JDK官网下载</a></li>
+					<li><a href="https://git-scm.com/downloads/">git官网下载</a></li>
+					<li><a href="https://tortoisesvn.net/">SVN官网下载</a></li>			
+					<li><a href="http://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html">Oracle Database官网下载</a></li>
+					<li><a href="http://rj.baidu.com/soft/detail/13808.html?ald">VMware Workstation下载</a></li>
+					<li><a href="https://www.virtualbox.org/">virtualbox官网下载</a></li>
+					<li><a href="http://support.amd.com/zh-cn/download">amd显卡驱动官网下载</a></li>
+					<li><a href="http://www.nvidia.cn/Download/index.aspx?lang=cn">NVIDIA显卡驱动官网下载</a></li>
+					<li><a href="http://www.drivergenius.com/">驱动精灵官网下载</a></li>
+					<li><a href="http://www.160.com/">驱动人生官网下载</a></li>
+					<li><a href="hhttp://www.360.cn/qudongdashi/">360驱动大师</a></li>
+					<li><a href="http://im.qq.com/download/">QQ官网下载</a></li>
+					<li><a href="http://weixin.qq.com/>微信官网下载</a></li>
+					<li><a href="https://github.com/">GitHub官网</a></li>
+					<li><a href="http://desktop.weibo.com/">新浪微博桌面</a></li>
+					<li><a href="http://www.splayer.org/">射手影音播放器官网</a></li>
+					<li><a href="http://www.baofeng.com/">暴风影音</a></li>
+					<li><a href="http://www.xfplay.com/">影音先锋播放器</a></li>
+					<li><a href="http://potplayer.daum.net/?lang=zh_CN">Potplayer 播放器</a></li>
+				</ol>
+			</div>
+		
+
+	</body>
+</html>
