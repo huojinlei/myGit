@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>数组方法</title>
+</head>
+
+<body>
+
+</body>
+<script>
+
+    // 判断包含
+    let arr = [1, 2, 3, 4, 5, 6, 7, 8]
+    console.log(arr.includes(1))
+
+    // 判断是否有一项符合条件
+    let isContain = arr.some(item => {
+        return item === 1
+    })
+    console.log(isContain)
+
+    // 判断所有的是否符合条件
+    let isAllEqual = arr.every(item => {
+        return item > 3
+    })
+    console.log(isAllEqual)
+
+    // 按照某个条件过滤
+    let filterArr = arr.filter(item => {
+        return item > 3
+    })
+    console.log(filterArr)
+
+
+    // 合并数据
+    let objArr = [
+        { LAST_MTIME: "2018-12-29 19:44:12", MEETING_DATE: "2018-12-29", SIGN_TYPE: "签到", SIGN_TYPE_2: null, USER_NAME: "宋蕊" },
+        { LAST_MTIME: "2018-12-29 19:44:12", MEETING_DATE: "2018-12-29", SIGN_TYPE: "请假", SIGN_TYPE_2: '因公', USER_NAME: "林小龙" },
+        { LAST_MTIME: "2018-12-29 19:44:12", MEETING_DATE: "2018-12-29", SIGN_TYPE: "请假", SIGN_TYPE_2: '因公', USER_NAME: "张三" },
+        { LAST_MTIME: "2018-12-29 19:44:12", MEETING_DATE: "2018-12-29", SIGN_TYPE: "签到", SIGN_TYPE_2: null, USER_NAME: "李四" },
+        { LAST_MTIME: "2018-12-22 19:44:12", MEETING_DATE: "2018-12-22", SIGN_TYPE: "请假", SIGN_TYPE_2: '因私', USER_NAME: "王五" },
+        { LAST_MTIME: "2018-12-29 19:44:12", MEETING_DATE: "2018-12-29", SIGN_TYPE: "签到", SIGN_TYPE_2: null, USER_NAME: "宋蕊" },
+        { LAST_MTIME: "2018-12-29 19:44:12", MEETING_DATE: "2018-12-29", SIGN_TYPE: "请假", SIGN_TYPE_2: '因公', USER_NAME: "林龙" },
+        { LAST_MTIME: "2018-12-30 19:44:12", MEETING_DATE: "2018-12-30", SIGN_TYPE: "签到", SIGN_TYPE_2: null, USER_NAME: "李小亮" },
+        { LAST_MTIME: "2018-12-27 19:44:12", MEETING_DATE: "2018-12-27", SIGN_TYPE: "签到", SIGN_TYPE_2: null, USER_NAME: "lisa" },
+        { LAST_MTIME: "2018-12-27 19:44:12", MEETING_DATE: "2018-12-27", SIGN_TYPE: "签到", SIGN_TYPE_2: null, USER_NAME: "雷娜" },
+        { LAST_MTIME: "2018-12-29 19:44:12", MEETING_DATE: "2018-12-29", SIGN_TYPE: "请假", SIGN_TYPE_2: '因公', USER_NAME: "lll" },
+        { LAST_MTIME: "2018-12-29 19:44:12", MEETING_DATE: "2018-12-29", SIGN_TYPE: "签到", SIGN_TYPE_2: null, USER_NAME: "333" },
+        { LAST_MTIME: "2018-12-22 19:44:12", MEETING_DATE: "2018-12-22", SIGN_TYPE: "请假", SIGN_TYPE_2: '因私', USER_NAME: "444" },
+        { LAST_MTIME: "2018-12-29 19:44:12", MEETING_DATE: "2018-12-29", SIGN_TYPE: "签到", SIGN_TYPE_2: null, USER_NAME: "5555" }
+    ]
+    function conbineArr(conbineText, arr) {
+        let meetingDate = []
+        arr.map((item, index) => {
+            if (!meetingDate[item[conbineText]]) {
+                meetingDate[item[conbineText]] = []
+            }
+            if (!meetingDate.includes(item[conbineText])) {
+                meetingDate[item[conbineText]].push(item)
+            }
+        })
+        console.log(meetingDate)
+    }
+    conbineArr('MEETING_DATE', objArr)
+</script>
+
+</html>
